@@ -3,7 +3,7 @@ import React from 'react'
 const InputType = ({labelFor,labelText,inputType, value,onchange,name}) => {
   return (
     <>
-      <div className="mb-3">
+      <div className="mb-1">
               <label htmlFor={labelFor} className="form-label">
              {labelText}
               </label>
